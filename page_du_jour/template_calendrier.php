@@ -9,9 +9,8 @@
     <body>
         <div id="bloc_page">
             <header>
-                <div id="titre_principal">
+                <img src="images/logo.png" id="image_logo"/>
                 <?php echo '<h1>' . 'Le ' . date('d') . ' Décembre' . '</h1>';?>
-                </div>
             </header>
 
             <section>
