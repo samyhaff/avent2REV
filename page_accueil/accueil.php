@@ -2,17 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./style.css" type="text/css" />
         <title> Calendrier de l'Avent</title>
     </head>
 
     <body>
-        <div id="bloc_page">
-            <h1>Bonjour Samy!</h1>
-            <?php echo '<h1>' . 'Le ' . date('d') . ' Décembre' . '</h1>';?>
-            <h1>Prêt à REVer?</h1>
-            <div id="bloc_bouton">
-                <button id="bouton"><h2>Venez voyager avec nous!</h2></button>
-            </div>
-        </div>
+        <figure id="fond">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
+                <image width="100%" xlink:href="images/fond.jpg">
+                </image>
+                <a xlink:href="//google.com">
+                    <image x="535" y="28" width="100" xlink:href="images/mongolfiere_rouge.png">
+                    </image>
+                </a>
+            </svg>
+        </figure>
     </body>
+</html>
