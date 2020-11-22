@@ -1,5 +1,5 @@
 <?php 
-    $date = 1;
+    $date = 2;
     $positions = array(array(150, 300), array(200, 328),
         array(200, 328), array(200, 328), array(200, 328),
         array(200, 328), array(200, 328), array(200, 328),
@@ -22,10 +22,18 @@
 
     <body>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
-                <a xlink:href=<?php echo $type_calendrier;?>>
-                <image x=<?php echo $positions[$date - 1][0];?> y=<?php echo $positions[$date - 1][1];?> width="100" xlink:href="images/mongolfiere_rouge.png">
-                    </image>
-                </a>
+                <?php 
+                    for ($i = 0; $i < $date - 1; $i++) {
+                        echo '<a xlink:href=' . $type_calendrier . '>';
+                        echo '<image x=' . $positions[$i][0] . ' y=' . $positions[$i][1] . ' width="100" xlink:href="images/mongolfiere_rouge.png">';
+                        echo '</image>';
+                        echo '</a>';
+                    }
+                    echo '<a xlink:href=' . $type_calendrier . '>';
+                    echo '<image x=' . $positions[$date - 1][0] . ' y=' . $positions[$date - 1][1] . ' width="100" xlink:href="images/mongolfiere_jaune.png">';
+                    echo '</image>';
+                    echo '</a>';
+                ?>
             </svg>
     </body>
 </html>
