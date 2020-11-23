@@ -9,11 +9,12 @@
     <body>
         <div id="bloc_page">
             <div id="gauche">
-                <header>
+                <div id="titre">
                     <h1>Jour X: article</h1>
-                </header>
+                </div>
                 <div id="contenu_gauche">
-                    <p>Gauche</p> 
+                    <p>
+                    </p> 
                 </div>
             </div>
             <div id="droite">

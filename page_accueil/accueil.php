@@ -18,7 +18,7 @@
     <body>
         <?php if (isset($_POST['email']))
         {
-            $$_SESSION['email'] = $_POST['email'];
+            $_SESSION['email'] = $_POST['email'];
             $type_calendrier = '//google.com';
         ?>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
