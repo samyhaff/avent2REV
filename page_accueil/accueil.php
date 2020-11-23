@@ -1,15 +1,10 @@
 <?php 
+    session_start();
     $date = 2;
-    $positions = array(array(150, 300), array(200, 328),
-        array(200, 328), array(200, 328), array(200, 328),
-        array(200, 328), array(200, 328), array(200, 328),
-        array(200, 328), array(200, 328), array(200, 328), 
-        array(200, 328), array(200, 328), array(200, 328), 
-        array(200, 328), array(200, 328), array(200, 328), 
-        array(200, 328), array(200, 328), array(200, 328), 
-        array(200, 328), array(200, 328), array(200, 328), 
-        array(200, 328));
-    $type_calendrier = '//google.com';
+    $positions = array(array(150, 300), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328),
+        array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), 
+        array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), 
+        array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328));
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +16,11 @@
     </head>
 
     <body>
+        <?php if (isset($_POST['email']))
+        {
+            $$_SESSION['email'] = $_POST['email'];
+            $type_calendrier = '//google.com';
+        ?>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
                 <?php 
                     for ($i = 0; $i < $date - 1; $i++) {
@@ -35,5 +35,12 @@
                     echo '</a>';
                 ?>
             </svg>
+        <?php
+        }
+        else
+        {
+            echo '<script> alert("Veuillez saisir votre email sur la page de connexion") </script>';
+        }
+        ?>
     </body>
 </html>

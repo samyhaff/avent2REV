@@ -8,19 +8,17 @@
 
     <body>
         <div id="bloc_page">
-            <header>
-                <img src="images/logo.png" id="image_logo"/>
-                <?php echo '<h1>' . 'Le ' . date('d') . ' Décembre' . '</h1>';?>
-            </header>
-
-            <section>
-                <article>
-
-                </article>
-                <aside>
-
-                </aside>
-            </section>
+            <div id="gauche">
+                <header>
+                    <h1>Jour X: article</h1>
+                </header>
+                <div id="contenu_gauche">
+                    <p>Gauche</p> 
+                </div>
+            </div>
+            <div id="droite">
+                <p>Droite</p>
+            </div>
         </div>
     </body>
 </html>

@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,7 +12,7 @@
             <h1>J'accède à mon calendrier</h1>
             <form method="post" action="../page_accueil/accueil.php">
                <p>
-               <label for="pseudo">Votre email</label> : <input type="email" name="email" id="email" required /> 
+               <label for="email">Votre email</label> : <input type="email" name="email" id="email" required /> 
                     <input type="submit" value="Valider" />
                </p> 
             </form>
