@@ -1,3 +1,35 @@
+@font-face 
+{
+    font-family: 'germinabunt';
+    src: url('germinabunt.ttf');
+}
+
+body
+{
+    background-image: url("images/fond.jpg");
+    background-size: cover;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+h1 
+{
+    font-size: 4em;
+    font-family: 'germinabunt';
+}
+
+h2 
+{
+    font-size: 3em;
+    font-family: 'germinabunt';
+}
+
 #bloc_page
 {
     display: flex;
@@ -7,30 +39,19 @@
 
 #droite
 {
-    background-color: red;
-    flex: 50%;
-}
-
-#titre
-{
-    background-color: blue;
-}
-
-#contenu_gauche 
-{
-    background-color: yellow;
-}
-
-p 
-{
-  margin-top:0;
-  -webkit-hypens:auto;
-  -moz-hypens:auto;
-  hyphens:auto;
+    min-width: 0;
+    min-height: 0;
+    flex: 1 0 0;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    margin-top: 1%;
 }
 
 #gauche
 {
-    background-color: green;
-    flex: 50%;
+    min-width: 0;
+    min-height: 0;
+    flex: 1 0 0;
+    margin-left: 1%;
+    margin-right: 2%;
 }
