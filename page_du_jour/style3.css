@@ -10,24 +10,30 @@ body
     background-size: cover;
 }
 
-p
+ul
 {
     margin-left: 1%;
     text-align: justify;
     font-size: 2em;
     line-height: 1.5;
     font-family: Arial;
+    display: inline-block;
 }
 
 h1 
 {
     font-size: 4em;
-    text-align: center;
     font-family: 'germinabunt';
+    text-align: center;
 }
 
 h2 
 {
     font-size: 3em;
     font-family: 'germinabunt';
+}
+
+#bloc_page
+{
+    width: 100%;
 }

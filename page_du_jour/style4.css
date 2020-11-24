@@ -1,0 +1,43 @@
+@font-face 
+{
+    font-family: 'germinabunt';
+    src: url('germinabunt.ttf');
+}
+
+body
+{
+    background-image: url("images/fond.jpg");
+    background-size: cover;
+}
+
+p
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial;
+}
+
+h1 
+{
+    font-size: 4em;
+    font-family: 'germinabunt';
+    text-align: center;
+}
+
+h2 
+{
+    font-size: 3em;
+    font-family: 'germinabunt';
+}
+
+#bloc_page
+{
+    width: 100%;
+}
+
+#solution
+{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 1%;
+}

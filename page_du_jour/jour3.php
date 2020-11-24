@@ -8,14 +8,18 @@
 
     <body>
         <div id="bloc_page">
-            <h1>Jour 3: Charade</h1>
-            <p>
-Mon premier est une préposition.</br>
-Mon deuxième est utilisé au golf.</br>
-Mon troisième est un liquide.</br>
-Mon quatrième est un oiseau voleur.</br>
-Mon tout est un pays. </br>
-            </p>
+            <div id="texte">
+                <h1>Jour 3: Charade</h1>
+                <ul>
+                    <li>Mon premier est une préposition.</li>
+                    <li>Mon deuxième est utilisé au golf.</li>
+                    <li>Mon troisième est un liquide.</li>
+                    <li>Mon quatrième est un oiseau voleur.</li>
+                    <li>Mon tout est un pays.</li>
+                </ul>
+            </div>
+            <div id="image">
+            </div>
         </div>
     </body>
 </html>

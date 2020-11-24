@@ -9,7 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 1: Rebus</h1>
-            <img src="images/rebus1.jpg" id="rebus">        
+            <img src="images/rebus1.png" id="rebus">        
         </div>
     </body>
 </html>
