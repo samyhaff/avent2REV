@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./style.css" type="text/css"/>
+        <link rel="stylesheet" href="./style2.css" type="text/css"/>
         <title>calendrier</title>
     </head>
 
@@ -10,6 +10,7 @@
         <div id="bloc_page">
             <div id="gauche">
                 <h1>Jour 2: Article sur le Vietnam et les actions de l'association</h1>
+                <p id="solution">Solution rébus : "Voyager vous laisse d’abord sans voix, avant de vous transformer en conteur" Citation d'Ibn Battuta, explorateur et voyageur marocain</p>
                 <h2>Une association etudiante perenne</h2>
                 <p>
 Récup'Eau Viêtnam est une association étudiante de Centrale Nantes qui aide le village Liên So’n 2 depuis 2011. Elle est née du désir d'action concrète, solidaire et durable, transmis de promotion en promotion. Depuis 9 ans déjà, nous partons pendant nos vacances d'été apporter notre aide pendant plusieurs semaines dans le village vietnamien Liên So’n 2, exposé à des problèmes sanitaires liés au manque d'eau potable et d'installations adaptées. Nos premières actions ont donc été de les aider à construire des toilettes sèches, des cuves de récupération d’eau et de tisser un lien avec les enfants du village, en leur donnant des cours d'anglais.
