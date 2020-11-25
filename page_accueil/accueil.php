@@ -1,10 +1,24 @@
 <?php 
     session_start();
+
+    try
+    {
+        $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    }
+    catch (Exception $e)
+    {
+            die('Erreur : ' . $e->getMessage());
+    }
+
     $date = 2;
     $positions = array(array(150, 300), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328),
         array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), 
         array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), 
         array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328));
+
+    $req = $bdd->prepare('SELECT id FROM info WHERE email = :mail');
+    $req->execute(array('mail' => $_POST['email']));
+    $id = $req->fetch();
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +30,9 @@
     </head>
 
     <body>
-        <?php if (isset($_POST['email']))
+        <?php if ($id)
         {
-            $_SESSION['email'] = $_POST['email'];
+            $_SESSION['id'] = $id;
             $type_calendrier = '../page_du_jour/jour2.php';
         ?>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
@@ -39,7 +53,7 @@
         }
         else
         {
-            echo '<script> alert("Veuillez saisir votre email sur la page de connexion") </script>';
+            echo '<script> alert("Veuillez saisir votre email utilisé pour l\'inscription sur la page de connexion") </script>';
         }
         ?>
     </body>
