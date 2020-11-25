@@ -13,13 +13,13 @@ body
 p
 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-family: Arial;
 }
 
 h1 
 {
-    font-size: 4em;
+    font-size: 5em;
     font-family: 'germinabunt';
     text-align: center;
 }
@@ -30,14 +30,28 @@ h2
     font-family: 'germinabunt';
 }
 
-#bloc_page
-{
-    width: 100%;
-}
-
 #solution
 {
     font-weight: bold;
-    text-align: right;
-    margin-right: 1%;
+    text-align: left;
+}
+
+#bloc_page
+{
+    display: flex;
+}
+
+#image 
+{
+    background-image: url("images/sandwich.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    border: solid;
+}
+
+#texte
+{
+    flex: 2;
+    margin: 1em;
 }

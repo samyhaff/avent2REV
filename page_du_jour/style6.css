@@ -12,24 +12,33 @@ body
 
 p
 {
-    font-size: 2em;
+    font-size: 3em;
     font-family: Arial;
 }
 
 h1 
 {
-    font-size: 4em;
+    font-size: 5em;
     font-family: 'germinabunt';
     text-align: center;
 }
 
-h2 
-{
-    font-size: 3em;
-    font-family: 'germinabunt';
-}
-
 #bloc_page
 {
-    margin-left: 1%;
+    display: flex;
+}
+
+#image 
+{
+    background-image: url("images/sandwich.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    border: solid;
+}
+
+#texte
+{
+    flex: 2;
+    margin: 1em;
 }

@@ -8,8 +8,11 @@
 
     <body>
         <div id="bloc_page">
-            <h1>Jour 4: enigme</h1>
-            <p>Décode cette phrase : « mo aeo t’kswo nkxc voc fyikqoc, n’ocd v’odyxxowoxd ne bodyeb. »</br>Indice: AVOCAT</p>
+            <div id="texte">
+                <h1>Jour 6: enigme</h1>
+                <p>Décode cette phrase : « mo aeo t’kswo nkxc voc fyikqoc, n’ocd v’odyxxowoxd ne bodyeb. »</br>Indice: AVOCAT</p>
+            </div>
+            <div id="image"></div>
         </div>
     </body>
 </html>

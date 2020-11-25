@@ -8,9 +8,13 @@
 
     <body>
         <div id="bloc_page">
-            <h1>Jour 4: enigme</h1>
-            <p>"Qu'est ce qui fait le tour du monde sans bouger ?"</p>
-            <p id="solution">Réponse charade: Ethopie</p> 
+            <div id="texte">
+                <h1>Jour 4: enigme</h1>
+                <p>"Qu'est ce qui fait le tour du monde sans bouger ?"</p>
+                <p id="solution">Réponse charade: Ethopie</p> 
+            </div>
+            <div id="image">
+            </div>
         </div>
     </body>
 </html>
