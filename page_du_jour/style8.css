@@ -1,0 +1,65 @@
+@font-face 
+{
+    font-family: 'germinabunt';
+    src: url('germinabunt.ttf');
+}
+
+body
+{
+    background-image: url("images/fond.jpg");
+    background-size: cover;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+h1 
+{
+    font-size: 4em;
+    font-family: 'germinabunt';
+}
+
+h2 
+{
+    font-size: 3em;
+    font-family: 'germinabunt';
+}
+
+#bloc_page
+{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+#droite
+{
+    min-width: 0;
+    min-height: 0;
+    flex: 1 0 0;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    margin-top: 1%;
+}
+
+#gauche
+{
+    min-width: 0;
+    min-height: 0;
+    flex: 1 0 0;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+ul
+{
+    text-align: justify;
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: Arial;
+}

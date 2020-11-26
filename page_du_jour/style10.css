@@ -1,0 +1,56 @@
+@font-face 
+{
+    font-family: 'germinabunt';
+    src: url('germinabunt.ttf');
+}
+
+body
+{
+    background-image: url("images/fond.jpg");
+    background-size: cover;
+}
+
+p
+{
+    font-size: 3em;
+    font-family: Arial;
+}
+
+h1 
+{
+    font-size: 5em;
+    font-family: 'germinabunt';
+    text-align: center;
+}
+
+h2 
+{
+    font-size: 3em;
+    font-family: 'germinabunt';
+}
+
+#solution
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+#bloc_page
+{
+    display: flex;
+}
+
+#image 
+{
+    background-image: url("images/village3.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    border: solid;
+}
+
+#texte
+{
+    flex: 2;
+    margin: 1em;
+}
