@@ -32,7 +32,8 @@
     <body>
         <?php if ($id)
         {
-            $_SESSION['id'] = $id;
+            $_SESSION['id'] = $id[0];
+            echo $_SESSION['id'];
             $type_calendrier = '../page_du_jour/jour2.php';
         ?>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
