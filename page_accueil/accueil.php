@@ -16,9 +16,9 @@
         array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), 
         array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328), array(200, 328));
 
-    $req = $bdd->prepare('SELECT id FROM info WHERE email = :mail');
+    $req = $bdd->prepare('SELECT id, choix_1, choix_2, choix_3 FROM info WHERE email = :mail');
     $req->execute(array('mail' => $_POST['email']));
-    $id = $req->fetch();
+    $recherche = $req->fetch();
 ?>
 
 <!DOCTYPE html>
@@ -30,10 +30,12 @@
     </head>
 
     <body>
-        <?php if ($id)
+        <?php if ($recherche)
         {
-            $_SESSION['id'] = $id[0];
-            echo $_SESSION['id'];
+            $_SESSION['id'] = $recherche[0];
+            $_SESSION['choix_1'] = $recherche[1];
+            $_SESSION['choix_2'] = $recherche[2];
+            $_SESSION['choix_3'] = $recherche[3];
             $type_calendrier = '../page_du_jour/jour2.php';
         ?>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 808" >
