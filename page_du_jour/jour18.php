@@ -1,5 +1,19 @@
 <?php
     session_start();
+
+    try
+    {
+        $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    }
+    catch (Exception $e)
+    {
+            die('Erreur : ' . $e->getMessage());
+    }
+
+    $req = $bdd->prepare('SELECT choix_1 FROM info WHERE id = :id');
+    $req->execute(array('id' => $_SESSION['id']));
+    $recherche = $req->fetch();
+    $choix = $recherche[0];
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +28,7 @@
         <div id="bloc_page">
             <h1>Histoire interactive</h1>
             <?php
-                if ($_SESSION['choix_1'] == 1)
+                if ($choix == 1)
                 {
             ?>
             <p>
