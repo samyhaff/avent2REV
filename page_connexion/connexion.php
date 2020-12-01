@@ -16,6 +16,7 @@
                     <input type="submit" value="Valider" />
                </p> 
             </form>
+            En cas de problème, contactez <b>rev.centralenantes@gmail.com</b>
         </div>
     </body>
 </html>

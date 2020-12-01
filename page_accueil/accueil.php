@@ -3,14 +3,16 @@
 
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        // $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        $bdd = new PDO('mysql:host=aventri430.mysql.db;dbname=aventri430;charset=utf8', 'aventri430', 'Haffouds2406', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
     }
     catch (Exception $e)
     {
             die('Erreur : ' . $e->getMessage());
     }
 
-    $date = 24;
+    $date = (date('d') <= 24) ? date('d') : 1;
     $positions = array(array(150, 300), array(250, 380), array(400, 528), array(380, 628), array(300, 680), array(280, 580),
         array(480, 370), array(550, 328), array(600, 220), array(550, 60), array(490, 220), array(650, 300), 
         array(740, 300), array(840, 250), array(920, 200), array(880, 150), array(780, 200), array(830, 330), 
