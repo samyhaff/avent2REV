@@ -9,7 +9,7 @@
     <body>
         <div id="bloc_page">
             <div id="gauche">
-                <h1>Jour 24: Derniere surprise</h1>
+                <h1>Jour 24: Dernieres surprises</h1>
                 <h2>Find de l'histoire</h2>
                 <p>
  L’heure tourne mais les voitures n’avancent pas plus. Le chauffeur regarde dans son rétroviseur intérieur son passager : les yeux de ce jeune européen ne cessent de faire des aller-retours entre le cadran de sa montre et la file d’automobilistes. Il semble stressé, pour ne pas dire angoissé.

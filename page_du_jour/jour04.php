@@ -2,15 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./style17.css" type="text/css"/>
+        <link rel="stylesheet" href="./style4.css" type="text/css"/>
         <title>calendrier</title>
     </head>
 
     <body>
         <div id="bloc_page">
             <div id="texte">
-                <h1>Jour 17: solution rebus</h1>
-                <p>Marcel Proust : « Le véritable voyage de découverte ne consiste pas à chercher de nouveaux paysages, mais à avoir de nouveaux yeux. »</p>
+                <h1>Jour 4: enigme</h1>
+                <p>"Qu'est ce qui fait le tour du monde sans bouger ?"</p>
+                <p id="solution">Réponse charade: Ethopie</p> 
             </div>
             <div id="image">
             </div>

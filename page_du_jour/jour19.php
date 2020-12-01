@@ -10,7 +10,7 @@
         <div id="bloc_page">
             <h1>Jour 19: mots caches</h1>
             <img src="images/motcaches.png" id="rebus">        
-            <p>Mots cachés : visite, découverte, aventure, excursion, bateau, avion, train, compagnon, culture, connaissance, souvenir, paysage</p>
+            <p><b>Mots cachés :</b> visite, découverte, aventure, excursion, bateau, avion, train, compagnon, culture, connaissance, souvenir, paysage</p>
         </div>
     </body>
 </html>
