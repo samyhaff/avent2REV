@@ -36,6 +36,11 @@ h2
     text-align: left;
 }
 
+#intro
+{
+    text-align: left;
+}
+
 #bloc_page
 {
     display: flex;

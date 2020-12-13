@@ -10,7 +10,7 @@
         <div id="bloc_page">
             <div id="gauche">
                 <h1>Jour 8: Charade</h1>
-                <p>Solution rébus : "Voyager vous laisse d’abord sans voix, avant de vous transformer en conteur" Citation d'Ibn Battuta, explorateur et voyageur marocain</p>
+                <p>Au programme du jour, nous vous proposons la solution du QUIZ et une charade.</p>
                 <h2>Reponses QUIZ</h2>
                 <p>
 <b>Réponse 1</b> : le Chinois Mandarin </br>

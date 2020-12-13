@@ -9,10 +9,11 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 12: Mots croisés</h1>
+            <p>Au programme du jour, nous vous proposons une grille de mots croisés!</p>
             <img src="images/mots.png" id="mot">        
             <ol>
                 <li>IL faut le présenter avant de changer de pays</li>
-                <li>il vaut mieux le suivre pour pas se perdre</li>
+                <li>il vaut mieux le suivre pour ne pas se perdre</li>
                 <li>Navigation autour d'une mer, des côtes d'un pays ou d'une partie du monde</li>
                 <li>Synonyme d'un voyage entrepris dans un dessein scientifique, commercial ou industriel</li>
                 <li>Nous le devenons lorsqu’on quitte notre région pour des vacances</li>

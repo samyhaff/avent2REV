@@ -10,14 +10,6 @@ body
     background-size: cover;
 }
 
-p
-{
-    text-align: justify;
-    font-size: 2em;
-    line-height: 1.5;
-    font-family: Arial;
-}
-
 ol
 {
     text-align: justify;
@@ -29,7 +21,6 @@ ol
 h1 
 {
     font-size: 4em;
-    text-align: center;
     font-family: 'germinabunt';
 }
 
@@ -37,13 +28,4 @@ h2
 {
     font-size: 3em;
     font-family: 'germinabunt';
-}
-
-#mot 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: solid;
 }

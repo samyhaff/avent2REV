@@ -12,7 +12,7 @@
             <h1>J'accède à mon calendrier</h1>
             <form method="post" action="redirection.php">
                <p>
-               <label for="nom">Votre nom de famille en majuscule</label> : <input type="text" name="nom" id="nom" required /> 
+               <label for="nom">Votre nom de famille en <b>majuscule</b></label> : <input type="text" name="nom" id="nom" required /> 
                     <input type="submit" value="Valider" />
                </p> 
             </form>

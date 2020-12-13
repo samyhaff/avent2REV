@@ -9,6 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 9: Photos</h1>
+            <p>Au programme du jour, nous vous proposons la réponse à la charade et quelques photos pour vous faire voyager!</p>
             <p>Réponse Charade : <b>Galapagos</b></p>
             <img src="images/Image2.jpg">
             <img src="images/Image3.jpg">

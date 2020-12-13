@@ -10,6 +10,7 @@
         <div id="bloc_page">
             <div id="texte">
                 <h1>Jour 4: enigme</h1>
+                <p id="intro">Au programme du jour nous vous proposons une petite énigme</p>
                 <p>"Qu'est ce qui fait le tour du monde sans bouger ?"</p>
                 <p id="solution">Réponse charade: Ethopie</p> 
             </div>

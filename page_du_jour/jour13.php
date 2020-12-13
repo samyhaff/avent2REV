@@ -9,6 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 13: Solution aux mots croisés</h1>
+            <p>Au programme du jour, nous vous proposons la solution aux mots croisés</p>
             <img src="images/mot2.png" id="mot">        
         </div>
     </body>
