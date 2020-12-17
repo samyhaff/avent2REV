@@ -9,6 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Histoire interactive</h1>
+            <p>Aujourd'hui est un jour spécial car aujourd’hui, c'est vous le héros! Si vous avez toujours été frustré par les choix du personnage principal, si vous avez toujours rêvé de savoir comment l'histoire se serait déroulée avec vos propres choix, alors cette histoire est faâte pour vous!</p>
             <p>
                 L’homme est fait de rêves, disent les grands sages. </br>
 C’est dans ses rêves que l’homme trouve la liberté, ajoutent les philosophes. </br>

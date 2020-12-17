@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="style_histoire.css" type="text/css"/>
         <title>Connexion</title>
     </head>
     <body>

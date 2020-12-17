@@ -9,6 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 16: Rebus</h1>
+            <p>Au programme du jour, nous vous proposons un rébus.</p>
             <img src="images/rebus2.png" id="rebus">        
         </div>
     </body>
