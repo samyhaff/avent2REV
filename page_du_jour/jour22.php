@@ -9,6 +9,7 @@
     <body>
         <div id="bloc_page">
             <h1>Jour 22: Petits messages</h1>
+            <p>Au programme du jour, voici deux messages écrit par des enfants du village pour nous demander notre aide!</p>
             <img src="images/message1.jpg">
             <p><i>C’est la porte du village de Liên So’n 2. Notre village est une minorité ethnique, donc il est très pauvre. Nous espérons que vous nous aiderez.</i></p>
             <img src="images/message2.jpg">

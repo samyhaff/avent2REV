@@ -3,7 +3,8 @@
 
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        // $bdd = new PDO('mysql:host=localhost;dbname=utilisateur;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        $bdd = new PDO('mysql:host=aventri430.mysql.db;dbname=aventri430;charset=utf8', 'aventri430', 'Haffouds2406', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch (Exception $e)
     {
@@ -53,7 +54,7 @@ Il faut dire que la réponse était immédiate : à cette heure tardive de la nu
 <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
             </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Accepter l’offre du chauffeur de taxi et partir avec lui. En espérant qu’il soit bon mécanicien et que son cabriolet tienne jusqu’à la fin du voyage… Car sinon, il peut dire adieu à sa réunion et à Noël.</label>
@@ -102,7 +103,7 @@ Un peu pris de court par cette longue déclaration, le cadre en perd ses mots. I
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
             </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Suivre l’avis de Paul et attendre le négociateur sans pouvoir espérer revenir dans la famille avant quelques jours. Cependant, la promotion est tellement confortable qu’Alexis et sa famille pourront désormais vivre de manière très aisée, plus encore qu’avant, et surtout, Alexis pourra passer bien plus de temps auprès de sa famille à l’avenir.</label>
@@ -137,7 +138,7 @@ Et en parlant de choix imposé, Alexis Roselier comprit qu’il n’était pas s
 <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Il choisit d’aller à la rencontre du négociateur, à Dubaï. Il ne peut pas annuler les réservations déjà faites à l’hôtel et il aura en plus des coûts de déplacement, mais il pourra décrocher son contrat à coup sûr. Il a une chance sur trois d’arriver à Noël à temps, et adieu les économies si patiemment construites pour se rattraper auprès de sa famille… Au moins, il pourra se rattraper avec son nouveau poste stable qui lui accordera plus de temps auprès de sa famille durant les années à venir.</label>
@@ -189,7 +190,7 @@ Un peu pris de court par cette longue déclaration, le cadre en perd ses mots. I
 <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Suivre l’avis de Paul et attendre le négociateur sans pouvoir espérer revenir dans la famille avant quelques jours. Cependant, la promotion est tellement confortable qu’Alexis et sa famille pourront désormais vivre de manière très aisée, plus encore qu’avant, et surtout, Alexis pourra passer bien plus de temps auprès de sa famille à l’avenir.</label>
@@ -228,7 +229,7 @@ Il faut dire que la réponse était immédiate : à cette heure tardive de la nu
  <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Accepter l’offre du chauffeur de taxi et partir avec lui. En espérant qu’il soit bon mécanicien et que son cabriolet tienne jusqu’à la fin du voyage… Car sinon, il peut dire adieu à sa réunion et à Noël.</label>
@@ -257,7 +258,7 @@ Soudainement, il est sorti de ses pensées par un appel urgent : le négociateur
  <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Face aux embouteillages qui risquent de s’éterniser encore quelques jours d’après le conducteur, Alexis perd l’espoir d’arriver à temps pour la réunion, quelque soit la date. Il préfère ainsi annuler tout simplement la réunion et garder une chance de passer Noël avec sa famille. Il a peu de chances de décrocher ce contrat à nouveau, et donc d’obtenir un poste plus stable à l’avenir, mais au moins, il a encore toutes ses chances de tenir sa promesse.</label>
@@ -291,7 +292,7 @@ Et en parlant de choix imposé, Alexis Roselier comprit qu’il n’était pas s
  <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Il choisit d’aller à la rencontre du négociateur, à Dubaï. Il ne peut pas annuler les réservations déjà faites à l’hôtel et il aura en plus des coûts de déplacement, mais il pourra décrocher son contrat à coup sûr. Il a une chance sur trois d’arriver à Noël à temps, et adieu les économies si patiemment construites pour se rattraper auprès de sa famille… Au moins, il pourra se rattraper avec son nouveau poste stable qui lui accordera plus de temps auprès de sa famille durant les années à venir.</label>
@@ -330,7 +331,7 @@ Soudainement, le téléphone d’Alexis s’allume pour indiquer une notificatio
  <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Il décide, in extremis, de rejoindre le négociateur dans la ville prévue à l’origine. En se décidant maintenant, il a une chance sur deux d’arriver à temps à la réunion et d’être à l’heure pour Noël. Il n’a plus qu’à espérer que sa femme comprenne qu’il ait dilapidé toutes les économies restantes pour essayer de décrocher ce contrat qui lui garantirait plus de temps auprès d’elle…</label>
@@ -354,16 +355,16 @@ Soudainement, le téléphone d’Alexis s’allume pour indiquer une notificatio
 La première partie du voyage s’était plutôt bien terminée, et il avait même eu l’occasion d’avoir des débats très riches avec le chauffeur qui commençaient, doucement, à le faire réfléchir sur le sens de sa propre vie. Il est à présent à une nouvelle station de taxis et observe le bal incessant de voitures qui arrivent et repartent aussitôt. Sans y réfléchir davantage et en suivant son intuition, il décide d’entrer dans la voiture de laquelle le chauffeur lui fait un grand sourire confiant. <br>
  <br>
 Les minutes passent. Alexis contemple le paysage qui défile devant ses yeux. Cependant, après une première heure de route qui se déroule sans encombre, la voiture est soudainement prise dans des embouteillages.  Décidément, ce voyage d’affaires qui était censé se dérouler sans encombre se transforme en véritable cauchemar. Assis sur la banquette arrière de cette voiture des années 2000 dont le cuir est rêche, Alexis voit son contrat s’envoler. L’heure tourne et ils n’avancent pas. Au moins, pense-t-il, il n’est pas dépaysé, se rappelant les embouteillages habituels aux portes de Paris. Il se demande néanmoins pourquoi autant de voitures sont présentes ici, pensant que la région régulait relativement bien le flux. Déjà le conducteur lui donne la réponse à sa question, sans même qu’il ait besoin de la formuler: <br>
-« On sent que c’est bientôt Noël. Beaucoup de monde rentre chez soi, voir sa famille. L’Arabie Saoudite interdit de fêter Noël mais ici, aux Emirats arabes unis, vous ne serez pas dépaysé à l’abord des grandes villes. Il y a de grandes festivités à Dubaï, vous savez.» <br>
+« On sent que c’est bientôt Noël. Beaucoup de monde rentre chez soi, voir sa famille. L’Arabie Saoudite interdit de fêter Noël mais ici, vous ne serez pas dépaysé à l’abord des grandes villes. Il y a de grandes festivités à Dubaï, vous savez.» <br>
  <br>
 Alexis regarde plus attentivement autour de lui : il y a effectivement une majorité de familles dans les voitures. Son regard s’arrête tout particulièrement sur la voiture familiale à sa droite. Un homme d’une quarantaine d’années, qui lui ressemble, est au volant. À sa droite, une femme et à l’arrière, deux enfants d’une dizaine d’années qui jouent ensemble aux cartes. S’il s’attarde sur eux, c’est que l’une de leurs fenêtres est ouverte et qu’il les entend discuter, ou plutôt, s’énerver. <br>
 La femme fronce les sourcils. “Je t’avais dit que c’était trop tard, nous aurions dû partir la veille pour éviter les bouchons”. L’homme semble impassible, elle continue. “Maintenant nous allons sans doute rater le Kebsa de mamie alors que c’est le plat que les enfants préfèrent, j’ai pas raison les enfants ?” La banquette arrière s’anime et le « oui » à l’unisson du garçon et de la petite fille semble faire émaner de la chaleur tout autour d’eux. Celui qu’Alexis suppose être le père des gamins sort enfin de son silence. “J’ai déjà pris davantage de jours de congés pour qu’on ait plus de temps ensemble, je suis désolé, tu n’avais qu’à partir sans moi.” La femme fulmine. “Arrête de faire celui qui ne comprend pas, on ne serait jamais partis sans toi, qu’est-ce que ce serait un Noël sans une partie de la famille ?” Le père s’apaise tout à coup et une ambiance plus chaleureuse s’empare de la voiture, à nouveau. Et celle-ci avance enfin. <br>
 Partout autour de lui, les gens sont animés de la même essence. Alexis se sent alors très seul, préoccupé par son travail et incapable de savoir si lui verra sa famille pour Noël. Depuis quand n’a-t-il pas vu ses parents ? Finalement, il envierait presque le couple qui s’énerve, n’ayant même pas l’opportunité de se disputer avec sa femme. Il secoue la tête. Mais qu’est-ce qu’il raconte, comment peut-il rêver de se disputer avec sa femme ?  Qui rêverait de cela? Il se force alors à rêver à une vie paisible et aisée dans laquelle sa famille ne manquerait d’aucun des bonheurs de la vie. <br>
-Soudainement, il est sorti de ses pensées par un appel urgent : le négociateur du contrat. Celui-ci lui explique, très rapidement et sans attendre la réponse d’Alexis, qu’il fait face à des problèmes dans sa maison. Un dégât des eaux qui l’empêchera d’être à Dubaï en temps et en heures. Il faut soit annuler soit reporter. Prendre une décision vite. Très vite. Et il raccroche. Alexis, déjà stressé, doit reprendre en panique une nouvelle décision <br>
+Soudainement, il est sorti de ses pensées par un appel urgent : le négociateur du contrat. Celui-ci lui explique, très rapidement et sans attendre la réponse d’Alexis, qu’il fait face à des problèmes dans sa maison. Un dégât des eaux qui l’empêchera d’être au lieu de rendez-vous en temps et en heures. Il faut soit annuler soit reporter. Prendre une décision vite. Très vite. Et il raccroche. Alexis, déjà stressé, doit reprendre en panique une nouvelle décision <br>
  <br>
 <b>Que faire ? À vous de choisir ! Attention, votre choix est déterminant pour la suite de l’histoire… </b>
 </p>
-            <form action="histoire2.php" method="post" id="choix">
+            <form action="histoire3.php" method="post" id="choix">
                 <div>
                     <input type="radio" name="choix_answer" id="A" value="A" />
                     <label for="A"><b>Option 1: </b>Face aux embouteillages qui risquent de s’éterniser encore quelques jours d’après le conducteur, Alexis perd l’espoir d’arriver à temps pour la réunion, quelque soit la date. Il préfère ainsi annuler tout simplement la réunion et garder une chance de passer Noël avec sa famille. Il a peu de chances de décrocher ce contrat à nouveau, et donc d’obtenir un poste plus stable à l’avenir, mais au moins, il a encore toutes ses chances de tenir sa promesse.</label>
